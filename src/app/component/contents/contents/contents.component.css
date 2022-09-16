@@ -1,0 +1,57 @@
+.content-crew {
+    padding: 3.4rem;
+}
+
+.profile-crew  {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+   
+}
+
+
+.profile-foto {
+    width: 17rem;
+    height: 13rem;
+    border: 1px solid #ced4da;
+}
+
+.profie-title {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1.5rem;
+    padding-top: 20px;
+}
+
+.name-crew {
+    font-size: 19px;
+}
+
+.occupation-name {
+    color: gray;
+    font-size: 9px;
+}
+
+.border-profile {
+    border-bottom: 1px solid #ced4da;
+}
+
+.description-profile {
+    padding-top: 2rem;
+}
+
+p::first-letter {
+    font-size: 33px;
+    letter-spacing: 10px;
+    color: black;
+}
+
+.text-profile {
+    color: gray;
+    font-size: 12px;
+}

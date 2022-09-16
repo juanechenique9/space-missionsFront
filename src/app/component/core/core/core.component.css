@@ -12,94 +12,9 @@
     height: 100%;
 }
 
-.sidenav{
-    padding: 26px;
-    display: flex;
-    flex-direction: column;
-  }
-
 .head-space {
     grid-column: 2/5;
-    grid-row: 1 / 1;
+    grid-row: 1 / 8;
     width: 100%;
-    border-bottom: 1px solid #ced4da;
-}
-
-.body-space {
-    grid-column: 2/5;
-    grid-row: 2 / 8;
-    width: 100%
-}
-
-.header-rsc {
-    padding-bottom: 4.5rem;
-}
-
-.header-mission {
-    padding-bottom: 3rem;
-}
-
-.title-rsc-mission {
-    font-weight: bold;
-    font-size: 17px;
-}
-
-.title-mission {
-    font-weight: bolder;
-    font-size: 13px;
-}
-
-
-.mission-overview {
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 2rem;
-}
-
-.target-body {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.head-target {
-    color: gray;
-    font-size: 9px;
-    font-weight: 500;
-}
-
-.body-target {
-    color: gray;
-    font-size: 12px;
-    font-weight: 400;
-}
-
-.head-crew {
-    display: flex;
-    flex-direction: column;
-}
-
-
-.content-crew {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-bottom: 1rem;
-}
-
-
-.body-crew {
-    display: flex;
-    flex-direction: column;
-}
-
-.align-roll {
-    text-align: end;
-    font-size: 12px;
-    font-weight: 400;
-    color: gray;
-}
-
-.header-crew {
-    padding-bottom: 1rem;
+    height: 100%;
 }
